@@ -1,0 +1,32 @@
+body {
+	padding-top: 50px;
+	margin: 0;
+}
+.margin-b-20 {
+	margin-bottom: 20px;
+}
+
+.carousel h3 {
+	color: #fff;
+}
+.carousel .carousel-slides div{
+	min-height:300px;
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+}
+.carousel .example-1 {
+	background-image: url(https://images.pexels.com/photos/459319/pexels-photo-459319.jpeg?h=350&auto=compress&cs=tinysrgb);
+}
+.carousel .example-2 {
+	background-image: url(https://images.pexels.com/photos/572688/pexels-photo-572688.jpeg?h=350&auto=compress&cs=tinysrgb);
+}
+.carousel .example-3 {
+	background-image: url(https://images.pexels.com/photos/51387/mount-everest-himalayas-nuptse-lhotse-51387.jpeg?h=350&auto=compress&cs=tinysrgb);
+}
+.carousel .example-4 {
+	background-image: url(https://images.pexels.com/photos/128458/pexels-photo-128458.jpeg?h=350&auto=compress&cs=tinysrgb);
+}
+.carousel .example-5 {
+	background-image: url(https://images.pexels.com/photos/110854/pexels-photo-110854.jpeg?h=350&auto=compress&cs=tinysrgb);
+}

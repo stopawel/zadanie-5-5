@@ -1,0 +1,166 @@
+<!DOCTYPE>
+ <html>
+ 	<head>
+ 		<meta charset="utf-8">
+ 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 		<title>JS</title>
+ 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+ 		<link rel="stylesheet" type="text/css" href="style.css">
+ 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js">
+ 		</script>
+ 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous">
+ 		</script>
+ 	</head>
+ 	
+ 	<body>
+ 		<header>
+			<nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
+				<div class="container-fluid">
+
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="#">Nazwa firmy</a>
+					</div>
+
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav">
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Język<span class="caret"></span>
+								</a>
+								<ul class="dropdown-menu">
+									<li><a href="#">Angielski</a>
+									</li>
+									<li role="separator" class="divider">
+									</li>
+									<li><a href="#">Chiński</a>
+									</li>
+									<li role="separator" class="divider">
+									</li>
+									<li><a href="#">Polski</a>
+									</li>
+								</ul>
+							</li>
+							<li><a href="#">Link</a>
+							</li>
+							<li><a href="#">Link</a>
+							</li>
+						</ul>
+						<form class="navbar-form navbar-right">
+							<div class="form-group">
+								<input type="text" class="form-control" placeholder="...">
+							</div>
+							<button type="submit" class="btn btn-default">Szukaj
+							</button>
+						</form>
+					</div>
+				</div>
+			</nav>
+ 		</header>
+ 		
+		<section class="carousel margin-b-20">
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active">
+					</li>
+					<li data-target="#myCarousel" data-slide-to="1">
+					</li>
+					<li data-target="#myCarousel" data-slide-to="2">
+					</li>
+					<li data-target="#myCarousel" data-slide-to="3">
+					</li>
+					<li data-target="#myCarousel" data-slide-to="4">
+					</li>
+				</ol>
+
+				<div class="carousel-inner carousel-slides text-center" role="listbox">
+					<div class="item active example-1">
+						<h3 class="carousel-caption">Pustynia
+						</h3>
+					</div>
+					<div class="item example-2">
+						<h3 class="carousel-caption">Las
+						</h3>      
+					</div>
+					<div class="item example-3">
+						<h3 class="carousel-caption">Góry
+						</h3>
+					</div>
+					<div class="item example-4">
+						<h3 class="carousel-caption">Morze
+						</h3>
+					</div>
+					<div class="item example-5">
+						<h3 class="carousel-caption">Gwiazdy
+						</h3>
+					</div>
+
+				<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true">
+					</span>
+					<span class="sr-only">Previous
+					</span>
+				</a>
+				<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true">
+					</span>
+					<span class="sr-only">Next
+					</span>
+				</a>
+			</div>
+		</section>
+		
+		<section class="tabs container margin-b-20">
+			
+			<ul class="nav nav-tabs">
+				<li class="active"><a data-toggle="tab" href="#home">O mnie</a></li>
+				<li><a data-toggle="tab" href="#menu1">Hobby</a></li>
+				<li><a data-toggle="tab" href="#menu2">Informacje</a></li>
+			</ul>
+
+			<div class="tab-content">
+				<div id="home" class="tab-pane fade in active">
+					<h3>O mnie</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut magna lorem. Nunc faucibus mollis justo eu luctus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer porttitor consequat lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vehicula risus vitae purus rhoncus, a bibendum purus vehicula. Quisque viverra lectus purus, at commodo massa tincidunt non. Vestibulum tincidunt ultricies maximus. Etiam tristique, dui sed commodo porttitor, lacus est dignissim sem, ac malesuada nisl ligula in quam. Quisque suscipit velit sit amet aliquam vehicula. Maecenas luctus eros diam, in egestas leo viverra a.</p>
+				</div>
+				<div id="menu1" class="tab-pane fade">
+					<h3>Hobby</h3>
+					<p>Morbi porttitor, ligula a tincidunt rutrum, tellus tellus dapibus mi, et semper ex diam in nulla. Etiam cursus consectetur vulputate. Donec nulla nisi, convallis at vestibulum et, rhoncus maximus elit. In nec tellus mattis, volutpat velit ut, varius ex. Aliquam mauris sapien, ultrices quis diam a, aliquet tempor sem. Aliquam a metus ultrices, vestibulum risus in, lobortis neque. Maecenas dapibus, sapien at rutrum tempus, tortor mauris mollis sapien, in consectetur mi arcu sit amet nisl. In a lacinia urna. Ut vehicula vestibulum orci ac convallis. Suspendisse dictum justo ut ex dignissim vulputate. Etiam condimentum, est id scelerisque mattis, eros velit interdum nisi, a fermentum dolor erat ac dolor. Sed malesuada sem a interdum egestas. Integer eu lacus sed nisi hendrerit ullamcorper et hendrerit dolor. Pellentesque vel fermentum quam.</p>
+				</div>
+				<div id="menu2" class="tab-pane fade">
+					<h3>Informacje</h3>
+					<p>Cras tempor, leo interdum imperdiet elementum, sapien justo consequat odio, id hendrerit leo ante nec turpis. Sed sollicitudin imperdiet nulla ac tincidunt. Phasellus tincidunt ullamcorper tempor. Sed condimentum massa sed arcu scelerisque iaculis. Sed ac justo congue, lacinia enim ac, euismod purus. Maecenas nec accumsan nisi, a gravida mauris. Nunc sed orci ligula. Suspendisse convallis sagittis quam, quis viverra nisl luctus tristique. Ut at purus vitae risus efficitur feugiat. Phasellus sit amet turpis molestie libero tempor pulvinar vitae eu lectus. Nulla quis libero vel eros tempor consectetur id ac tortor..</p>
+				</div>
+			</div>
+			
+		</section>
+		
+		<section class="container modal-button">
+			<button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#exampleModal">Informacje
+			</button>
+			<div id="exampleModal" class="modal fade" role="dialog">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h4>Nagłówek</h4>
+						</div>
+						<div class="modal-body">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi sequi, hic iure, laboriosam in sapiente obcaecati distinctio fuga. Nam in facilis facere quaerat repudiandae porro, dolore explicabo nisi atque nesciunt.
+							</p>
+						</div>
+						<div class="modal-footer">
+							<p>Stopka</p>
+							<button type="button" class="btn btn-primary" data-dismiss="modal">Zamknij
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+ 
+ 	</body>
+ </html>
